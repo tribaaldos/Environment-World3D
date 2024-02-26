@@ -81,7 +81,7 @@ export const useFollowCam = function (props: UseFollowCamProps) {
    * Touch events
    */
   // Touch end event
-  const onTouchEnd = (e: TouchEvent) => {
+  const onTouchEnd = () => {
     previousTouch1 = null
     previousTouch2 = null
   }

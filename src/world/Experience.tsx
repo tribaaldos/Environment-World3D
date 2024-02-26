@@ -6,8 +6,8 @@ import Floor from "./Floor";
 import Lights from "./Lights";
 import { useControls } from "leva";
 import CharacterModel from "../characters/CharacterModel";
-import Player4 from "../characters/Player4";
-import Keqing from '../characters/Keqing'
+// import Player4 from "../characters/Player4";
+// import Keqing from '../characters/Keqing'
 import City from '../environment/City';
 
 
@@ -55,8 +55,8 @@ export default function Experience() {
       <Lights />
 
       <Physics debug={physics} timeStep="vary">
-        <Player4 />
-        <Keqing />
+        {/* <Player4 />
+        <Keqing /> */}
         {/* Keyboard preset */}
         <KeyboardControls map={keyboardMap}>
           {/* Character Control */}

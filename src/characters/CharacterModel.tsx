@@ -2,7 +2,8 @@
 import { Suspense } from "react";
 import { BallCollider } from "@react-three/rapier";
 
-export default function CharacterModel(props: CharacterModelProps) {
+// export default function CharacterModel({props: CharacterModelProps}) {
+export default function CharacterModel({}) {
 
   return (
     <Suspense fallback={<capsuleGeometry args={[0.3, 0.7]} />}>
@@ -21,5 +22,5 @@ export default function CharacterModel(props: CharacterModelProps) {
   );
 }
 
-export type CharacterModelProps = JSX.IntrinsicElements["group"];
+// export type CharacterModelProps = JSX.IntrinsicElements["group"];
 

@@ -84,7 +84,7 @@ const JoystickComponents = (props: EcctrlJoystickProps) => {
     }, [api, windowSize])
 
     // Touch end function
-    const onTouchEnd = (e: TouchEvent) => {
+    const onTouchEnd = () => {
         // Reset animations
         api.start({
             topRotationX: 0,
