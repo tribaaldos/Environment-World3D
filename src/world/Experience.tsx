@@ -1,8 +1,8 @@
 import { Grid, KeyboardControls } from "@react-three/drei";
 import { Perf } from "r3f-perf";
 import { Physics } from "@react-three/rapier";
-import Ecctrl from "../Ecctrl";
 import Floor from "./Floor";
+import Ecctrl from "../Ecctrl";
 import Lights from "./Lights";
 import { useControls } from "leva";
 import CharacterModel from "../characters/CharacterModel";
